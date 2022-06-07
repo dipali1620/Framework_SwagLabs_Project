@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="OpenCart Test Suite">
+
+	
+
+	<test name="OpenCart Tests">
+	<parameter name="browser" value="firefox"/>
+		<classes>
+		    <class name="Testcase.TC_001_LoginPage"/>
+			<class name="Testcase.TC_002_ShoppingCart"/>
+			<class name="Testcase.TC_003_DecendingAndAssendingOrder"/>
+			<class name="Testcase.TC_004_ChangeStatusCart"/>
+		</classes>
+	</test>
+	
+	<!-- Here you can specify multiple tests -->
+	
+
+</suite>

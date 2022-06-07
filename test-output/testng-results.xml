@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-07T19:18:35 EDT" name="OpenCart Test Suite" finished-at="2022-06-07T19:19:31 EDT" duration-ms="55557">
+    <groups>
+    </groups>
+    <test started-at="2022-06-07T19:18:35 EDT" name="OpenCart Tests" finished-at="2022-06-07T19:19:31 EDT" duration-ms="55557">
+      <class name="Testcase.TC_004_ChangeStatusCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcase.TC_004_ChangeStatusCart@7c24b813]" started-at="2022-06-07T19:19:26 EDT" name="setup" finished-at="2022-06-07T19:19:29 EDT" duration-ms="2988" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_ChangeStatusOfItem()[pri:0, instance:Testcase.TC_004_ChangeStatusCart@7c24b813]" started-at="2022-06-07T19:19:29 EDT" name="test_ChangeStatusOfItem" finished-at="2022-06-07T19:19:30 EDT" duration-ms="1536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ChangeStatusOfItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.TC_004_ChangeStatusCart@7c24b813]" started-at="2022-06-07T19:19:30 EDT" name="tearDown" finished-at="2022-06-07T19:19:31 EDT" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC_004_ChangeStatusCart -->
+      <class name="Testcase.TC_001_LoginPage">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcase.TC_001_LoginPage@4fb3ee4e]" started-at="2022-06-07T19:18:35 EDT" name="setup" finished-at="2022-06-07T19:18:41 EDT" duration-ms="5514" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Login()[pri:0, instance:Testcase.TC_001_LoginPage@4fb3ee4e]" started-at="2022-06-07T19:18:41 EDT" name="test_Login" finished-at="2022-06-07T19:18:42 EDT" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login -->
+        <test-method signature="test_Login_Requirefield()[pri:0, instance:Testcase.TC_001_LoginPage@4fb3ee4e]" started-at="2022-06-07T19:18:42 EDT" name="test_Login_Requirefield" finished-at="2022-06-07T19:18:45 EDT" duration-ms="2494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_Requirefield -->
+        <test-method signature="test_Login_Wrong_Input()[pri:0, instance:Testcase.TC_001_LoginPage@4fb3ee4e]" started-at="2022-06-07T19:18:45 EDT" name="test_Login_Wrong_Input" finished-at="2022-06-07T19:18:47 EDT" duration-ms="2442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Login_Wrong_Input -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.TC_001_LoginPage@4fb3ee4e]" started-at="2022-06-07T19:18:47 EDT" name="tearDown" finished-at="2022-06-07T19:18:48 EDT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC_001_LoginPage -->
+      <class name="Testcase.TC_003_DecendingAndAssendingOrder">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcase.TC_003_DecendingAndAssendingOrder@25fb8912]" started-at="2022-06-07T19:19:04 EDT" name="setup" finished-at="2022-06-07T19:19:07 EDT" duration-ms="3287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_Filter()[pri:0, instance:Testcase.TC_003_DecendingAndAssendingOrder@25fb8912]" started-at="2022-06-07T19:19:07 EDT" name="test_Filter" finished-at="2022-06-07T19:19:25 EDT" duration-ms="17829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Filter -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.TC_003_DecendingAndAssendingOrder@25fb8912]" started-at="2022-06-07T19:19:25 EDT" name="tearDown" finished-at="2022-06-07T19:19:26 EDT" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC_003_DecendingAndAssendingOrder -->
+      <class name="Testcase.TC_002_ShoppingCart">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:Testcase.TC_002_ShoppingCart@5d7148e2]" started-at="2022-06-07T19:18:48 EDT" name="setup" finished-at="2022-06-07T19:18:51 EDT" duration-ms="3111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_AddItem()[pri:0, instance:Testcase.TC_002_ShoppingCart@5d7148e2]" started-at="2022-06-07T19:18:51 EDT" name="test_AddItem" finished-at="2022-06-07T19:19:03 EDT" duration-ms="12489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_AddItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Testcase.TC_002_ShoppingCart@5d7148e2]" started-at="2022-06-07T19:19:03 EDT" name="tearDown" finished-at="2022-06-07T19:19:04 EDT" duration-ms="618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Testcase.TC_002_ShoppingCart -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- OpenCart Test Suite -->
+</testng-results>
